@@ -1,3 +1,5 @@
+> 测试环境： LabVIEW 2020 | TestStand 2020
+>
 > Teststand 编写 OI， 通常通过 UIMessage 处理实时的运行状态和实时信息。
 >
 > OI 和 SEQ 之间需要约定通讯的信息，例如：
