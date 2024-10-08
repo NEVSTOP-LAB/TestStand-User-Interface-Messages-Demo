@@ -9,3 +9,12 @@
 > 参考：使用TestStand用户界面消息（UI消息） - NI
 > Ref: https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x3tWCAQ&l=en-US
 
+
+> ## 并行测试
+>
+> 以编程方式在TestStand中设置Test Socket的数量
+> https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000000P7p7SAC&l=zh-CN
+>
+> testsocket index
+> RunState.TestSockets.MyIndex
+>
