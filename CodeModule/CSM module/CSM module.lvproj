@@ -10,23 +10,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_support" Type="Folder" URL="../_support">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="CSM module" Type="Folder">
-			<Item Name="API - CountUp Global.vi" Type="VI" URL="../CSM module/API - CountUp Global.vi"/>
-			<Item Name="API - CountUp.vi" Type="VI" URL="../CSM module/API - CountUp.vi"/>
-			<Item Name="CSM.vi" Type="VI" URL="../CSM module/CSM.vi"/>
-			<Item Name="Exit Module.vi" Type="VI" URL="../CSM module/Exit Module.vi"/>
-			<Item Name="Global.vi" Type="VI" URL="../CSM module/Global.vi"/>
-			<Item Name="Start Module.vi" Type="VI" URL="../CSM module/Start Module.vi"/>
+			<Item Name="API - CountUp Global.vi" Type="VI" URL="../API - CountUp Global.vi"/>
+			<Item Name="API - CountUp.vi" Type="VI" URL="../API - CountUp.vi"/>
+			<Item Name="CSM.vi" Type="VI" URL="../CSM.vi"/>
+			<Item Name="Exit Module.vi" Type="VI" URL="../Exit Module.vi"/>
+			<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
+			<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		</Item>
-		<Item Name="Continous Message Test.vi" Type="VI" URL="../Continous Message Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="API String Arguments Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/API-String-Arugments-Support/API String Arguments Support.lvlib"/>
 				<Item Name="Communicable State Machine.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/Communicable State Machine.lvlib"/>
-				<Item Name="Timeout Timer_nevstop.vi" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Time/Timeout Timer_nevstop.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
