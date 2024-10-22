@@ -1,0 +1,26 @@
+{
+    "Name":"CSM-Module",
+    "Interfaces":[
+        {
+            "Name":"Initialize",
+            "Parameters":[],
+            "Output":{
+                "Type":"INT32"
+            }
+        },
+        {
+            "Name":"CountUp",
+            "Parameters":[],
+            "Output":{
+                "Type":"STRING"
+            }
+        },
+        {
+            "Name":"Close",
+            "Parameters":[],
+            "Output":{
+                "Type":"INT32"
+            }
+        }
+    ]
+}

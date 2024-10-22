@@ -1,0 +1,51 @@
+[_searching path]
+# priority 1 = 当前配置文件路径
+priority 2 = <lvapt>/*
+priority 3 = <user.lib>/*
+priority 4 = <vi.lib>/*
+
+# 名字不重要，重要的是后面的路径
+[_include]
+ProtoModulePath = ProtoModulePath.ini
+
+[SEQ-Hardware-Initialize]
+Type = CSMScripts
+#path = 初始化.csmscript
+1 = Initialize -@ MyCSM
+
+[SEQ-Hardware-Cleanup]
+Type = CSMScripts
+#path = 释放.csmscript
+1 = Close -@ MyCSM
+#------------------------------------------------
+# HAL Definition
+#------------------------------------------------
+
+[MyCSM]
+HALMAL = HAL
+Type = TESTMODULE
+ProtoModule = CSM-Module
+Device = ZELIN
+
+[lvAPTDebugTool]
+HALMAL = HAL
+Type = DEBUGTOOL
+ProtoModule = lvAPT-DebugTools
+
+#------------------------------------------------
+# MAL Definiation
+#------------------------------------------------
+
+#----------------------
+#信号测试映射关系
+#----------------------
+[MeasureSignalMapping]
+
+[SignalAlias]
+
+#----------------------
+#测试相关的配置信息
+#----------------------
+
+
+

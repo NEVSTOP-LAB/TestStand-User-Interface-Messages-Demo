@@ -1,0 +1,33 @@
+{
+    "Name":"lvAPT-DebugTools",
+    "Interfaces":[
+        {
+            "Name":"Start CMD Console",
+            "Parameters":[],
+            "Output":{
+                "Type":"STRING"
+            }
+        },
+        {
+            "Name":"Start INI Config Viewer",
+            "Parameters":[],
+            "Output":{
+                "Type":"STRING"
+            }
+        },
+        {
+            "Name":"Stop CMD Console",
+            "Parameters":[],
+            "Output":{
+                "Type":"STRING"
+            }
+        },
+        {
+            "Name":"Stop INI Config Viewer",
+            "Parameters":[],
+            "Output":{
+                "Type":"STRING"
+            }
+        }
+    ]
+}

@@ -32,6 +32,7 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Safely Close Reference_nevstop.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Application/Safely Close Reference_nevstop.vim"/>
 			</Item>
+			<Item Name="RunState.TestSockets.MyIndex.vi" Type="VI" URL="../../../CodeModule/_support/RunState.TestSockets.MyIndex.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TestExec.exe" Type="EXE">
