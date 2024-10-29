@@ -9,8 +9,8 @@
 >
 > ![image](截图.png)
 >
-> 参考：使用TestStand用户界面消息（UI消息） - NI
-> Ref: https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x3tWCAQ&l=en-US
+> 参考：
+> - [使用TestStand用户界面消息（UI消息）](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x3tWCAQ&l=en-US)
 
 
 > ## 并行测试
