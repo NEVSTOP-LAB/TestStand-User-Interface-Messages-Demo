@@ -23,3 +23,10 @@
 >
 > RunState.TestSockets.MyIndex
 >
+> 隐藏 Pre-loading Modules 对话框
+>
+> ![image](.doc/微信图片_20241122161207.png)
+>
+> 参考：
+>
+>![image](.doc/5c6daf099df3d344cb5ed74bbc936c3.png)
